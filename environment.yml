@@ -1,4 +1,4 @@
-name: example-environment
+name: mybinder-environment
 channels:
   - conda-forge
 dependencies:
@@ -11,3 +11,6 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - bqplot
+  - ipywidgets
+  - traitlets
